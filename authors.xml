@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <author name="Esther Clark">
+    <recipes>
+      <recipe>
+        <name>Chicken arrabbiata stew &amp; parmesan dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chicken-arrabbiata-stew-parmesan-dumplings</link>
+        <time>1 hr 30 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Chipotle sweet potato &amp; black bean stew with cheddar dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chipotle-sweet-potato-black-bean-stew-cheddar-dumplings</link>
+        <time>1 hr</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Chicken &amp; ham casserole with mustardy dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chicken-ham-casserole-with-mustardy-dumplings</link>
+        <time>1 hr 50 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Cassie Best">
+    <recipes>
+      <recipe>
+        <name>Dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/dumplings</link>
+        <time>35 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Apple dumpling puddle pudding</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/apple-dumpling-puddle-pudding</link>
+        <time>1 hr 5 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Good Food team">
+    <recipes>
+      <recipe>
+        <name>Pesto chicken stew with cheesy dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/pesto-chicken-stew-cheesy-dumplings</link>
+        <time>3 hrs 10 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Vegetable stew with herby dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/vegetable-stew-herby-dumplings</link>
+        <time>2 hrs 10 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Pork goulash with herby dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/pork-goulash-herby-dumplings</link>
+        <time>1 hr 55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Spring veggie casserole with little herb dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/spring-veggie-casserole-little-herb-dumplings</link>
+        <time>2 hrs</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Sweet German dumplings (dampfnudel)</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/sweet-german-dumplings</link>
+        <time>1 hr 20 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+      <recipe>
+        <name>Grilled lemon sole with dumplings &amp; lemon sauce</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/grilled-lemon-sole-dumplings-lemon-sauce</link>
+        <time>1 hr 55 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Jo Pratt">
+    <recipes>
+      <recipe>
+        <name>Chicken &amp; red wine casserole with herby dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chicken-red-wine-casserole-herby-dumplings</link>
+        <time>1 hr 45 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Anna Glover">
+    <recipes>
+      <recipe>
+        <name>Slow cooker vegetable stew with cheddar dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/spring-veg-stew-cheddar-dumplings</link>
+        <time>6 hrs 20 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Angela Nilsen">
+    <recipes>
+      <recipe>
+        <name>Beef stew &amp; dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/lighter-beef-stew-dumplings</link>
+        <time>2 hrs 55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Sarah Cook">
+    <recipes>
+      <recipe>
+        <name>Chicken casserole with herby dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chicken-casserole-herby-dumplings</link>
+        <time>1 hr 40 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Brazilian pork stew with corn dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/brazilian-pork-stew-corn-dumplings</link>
+        <time>3 hrs</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Tom Kerridge">
+    <recipes>
+      <recipe>
+        <name>Beef &amp; Guinness stew with bacon dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/beef-guinness-stew-bacon-dumplings</link>
+        <time>3 hrs 30 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Sara Buenfeld">
+    <recipes>
+      <recipe>
+        <name>Tomato &amp; harissa stew with cheddar dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/tomato-harissa-stew-cheddar-dumplings</link>
+        <time>55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Clootie dumpling</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/clootie-dumpling</link>
+        <time>3 hrs 55 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Samantha Couzens">
+    <recipes>
+      <recipe>
+        <name>Hearty vegetable stew with dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/hearty-vegetable-stew-with-dumplings</link>
+        <time>55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Tomas Lidakevicius">
+    <recipes>
+      <recipe>
+        <name>Cepelinai (meat &amp; potato dumplings)</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/cepelinai-meat-potato-dumplings</link>
+        <time>1 hr 40 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Rosie Birkett">
+    <recipes>
+      <recipe>
+        <name>Sri Lankan braised roots stew &amp; coconut dhal dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/sri-lankan-braised-roots-stew-coconut-dhal-dumplings</link>
+        <time>1 hr 25 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Romy Gill">
+    <recipes>
+      <recipe>
+        <name>Pork momos (Nepalese dumplings)</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/pork-momos-nepalese-dumplings</link>
+        <time>1 hr 20 mins</time>
+        <difficulty>A challenge</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="John Torode">
+    <recipes>
+      <recipe>
+        <name>Golden syrup dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/golden-syrup-dumplings</link>
+        <time>30 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Beef stew with horseradish dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/beef-stew-horseradish-dumplings</link>
+        <time>3 hrs 25 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Miriam Nice">
+    <recipes>
+      <recipe>
+        <name>Lithuanian cepelinai: Potato dumplings with mushroom sauce &amp; bacon</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/lithuanian-cepelinai-potato-dumplings-mushroom-sauce-bacon</link>
+        <time>1 hr 30 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Richard Corrigan">
+    <recipes>
+      <recipe>
+        <name>Watercress soup with bacon dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/watercress-soup-bacon-dumplings</link>
+        <time>1 hr</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Jane Hornby">
+    <recipes>
+      <recipe>
+        <name>Chinese dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chinese-dumplings</link>
+        <time>25 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Gordon Ramsay">
+    <recipes>
+      <recipe>
+        <name>Boiled beef &amp; carrots with parsley dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/boiled-beef-carrots-parsley-dumplings</link>
+        <time>2 hrs 45 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Ching-He Huang">
+    <recipes>
+      <recipe>
+        <name>Open flower dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/open-flower-dumplings</link>
+        <time>55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Esther Clark">
+    <recipes>
+      <recipe>
+        <name>Chicken arrabbiata stew &amp; parmesan dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chicken-arrabbiata-stew-parmesan-dumplings</link>
+        <time>1 hr 30 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Chipotle sweet potato &amp; black bean stew with cheddar dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chipotle-sweet-potato-black-bean-stew-cheddar-dumplings</link>
+        <time>1 hr</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Chicken &amp; ham casserole with mustardy dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chicken-ham-casserole-with-mustardy-dumplings</link>
+        <time>1 hr 50 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Cassie Best">
+    <recipes>
+      <recipe>
+        <name>Dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/dumplings</link>
+        <time>35 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Apple dumpling puddle pudding</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/apple-dumpling-puddle-pudding</link>
+        <time>1 hr 5 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Good Food team">
+    <recipes>
+      <recipe>
+        <name>Pesto chicken stew with cheesy dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/pesto-chicken-stew-cheesy-dumplings</link>
+        <time>3 hrs 10 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Vegetable stew with herby dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/vegetable-stew-herby-dumplings</link>
+        <time>2 hrs 10 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Pork goulash with herby dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/pork-goulash-herby-dumplings</link>
+        <time>1 hr 55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Spring veggie casserole with little herb dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/spring-veggie-casserole-little-herb-dumplings</link>
+        <time>2 hrs</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Sweet German dumplings (dampfnudel)</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/sweet-german-dumplings</link>
+        <time>1 hr 20 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+      <recipe>
+        <name>Grilled lemon sole with dumplings &amp; lemon sauce</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/grilled-lemon-sole-dumplings-lemon-sauce</link>
+        <time>1 hr 55 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Jo Pratt">
+    <recipes>
+      <recipe>
+        <name>Chicken &amp; red wine casserole with herby dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chicken-red-wine-casserole-herby-dumplings</link>
+        <time>1 hr 45 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Anna Glover">
+    <recipes>
+      <recipe>
+        <name>Slow cooker vegetable stew with cheddar dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/spring-veg-stew-cheddar-dumplings</link>
+        <time>6 hrs 20 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Angela Nilsen">
+    <recipes>
+      <recipe>
+        <name>Beef stew &amp; dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/lighter-beef-stew-dumplings</link>
+        <time>2 hrs 55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Sarah Cook">
+    <recipes>
+      <recipe>
+        <name>Chicken casserole with herby dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chicken-casserole-herby-dumplings</link>
+        <time>1 hr 40 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Brazilian pork stew with corn dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/brazilian-pork-stew-corn-dumplings</link>
+        <time>3 hrs</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Tom Kerridge">
+    <recipes>
+      <recipe>
+        <name>Beef &amp; Guinness stew with bacon dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/beef-guinness-stew-bacon-dumplings</link>
+        <time>3 hrs 30 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Sara Buenfeld">
+    <recipes>
+      <recipe>
+        <name>Tomato &amp; harissa stew with cheddar dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/tomato-harissa-stew-cheddar-dumplings</link>
+        <time>55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Clootie dumpling</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/clootie-dumpling</link>
+        <time>3 hrs 55 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Samantha Couzens">
+    <recipes>
+      <recipe>
+        <name>Hearty vegetable stew with dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/hearty-vegetable-stew-with-dumplings</link>
+        <time>55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Tomas Lidakevicius">
+    <recipes>
+      <recipe>
+        <name>Cepelinai (meat &amp; potato dumplings)</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/cepelinai-meat-potato-dumplings</link>
+        <time>1 hr 40 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Rosie Birkett">
+    <recipes>
+      <recipe>
+        <name>Sri Lankan braised roots stew &amp; coconut dhal dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/sri-lankan-braised-roots-stew-coconut-dhal-dumplings</link>
+        <time>1 hr 25 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Romy Gill">
+    <recipes>
+      <recipe>
+        <name>Pork momos (Nepalese dumplings)</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/pork-momos-nepalese-dumplings</link>
+        <time>1 hr 20 mins</time>
+        <difficulty>A challenge</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="John Torode">
+    <recipes>
+      <recipe>
+        <name>Golden syrup dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/golden-syrup-dumplings</link>
+        <time>30 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+      <recipe>
+        <name>Beef stew with horseradish dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/beef-stew-horseradish-dumplings</link>
+        <time>3 hrs 25 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Miriam Nice">
+    <recipes>
+      <recipe>
+        <name>Lithuanian cepelinai: Potato dumplings with mushroom sauce &amp; bacon</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/lithuanian-cepelinai-potato-dumplings-mushroom-sauce-bacon</link>
+        <time>1 hr 30 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Richard Corrigan">
+    <recipes>
+      <recipe>
+        <name>Watercress soup with bacon dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/watercress-soup-bacon-dumplings</link>
+        <time>1 hr</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Jane Hornby">
+    <recipes>
+      <recipe>
+        <name>Chinese dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/chinese-dumplings</link>
+        <time>25 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Gordon Ramsay">
+    <recipes>
+      <recipe>
+        <name>Boiled beef &amp; carrots with parsley dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/boiled-beef-carrots-parsley-dumplings</link>
+        <time>2 hrs 45 mins</time>
+        <difficulty>More effort</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+  <author name="Ching-He Huang">
+    <recipes>
+      <recipe>
+        <name>Open flower dumplings</name>
+        <link>https://www.bbcgoodfood.com/recipes/recipes/open-flower-dumplings</link>
+        <time>55 mins</time>
+        <difficulty>Easy</difficulty>
+      </recipe>
+    </recipes>
+  </author>
+</data>

@@ -1,0 +1,217 @@
+---
+title: "Midterm Assignment"
+author: "Charles Hou"
+date: "18/7/2023"
+---
+
+### Part 1
+
+```{r}
+#| warning: false
+
+library(tidyverse)
+library(rvest)
+
+main_url <- "https://www.bbcgoodfood.com/search?q=dumplings"
+html <- read_html(main_url)
+```
+
+```{r}
+get_row <- function(element) {
+  # recipe name
+  recipe_nm <- element %>%
+    html_attr("data-item-name") %>%
+    trimws()
+  
+  # link
+  href <- element %>%
+    html_node("a") %>%
+    html_attr("href") %>%
+    trimws()
+  
+  recipe_link <- paste0("https://www.bbcgoodfood.com/recipes", href)
+  
+  # time
+  detail_list <- element %>% 
+    html_nodes("li")
+  
+  recipe_time <- detail_list[[1]] %>%
+    html_text() %>%
+    trimws()
+  
+  # difficulty
+  recipe_diff <- detail_list[[2]] %>%
+    html_text() %>%
+    trimws()
+  
+  # author name
+  recipe_page <- read_html(recipe_link)
+  auth_name <- html_element(recipe_page, xpath = "/html/body/div/div[4]/main/div[2]/section/div/div[4]/div[2]/div/ul/li/a") %>%
+    html_text() %>%
+    trimws()
+  
+  # calories
+  kcal <- html_element(recipe_page, "div.post-header__body") %>%
+    html_element("td.key-value-blocks__value") %>%
+    html_text() %>%
+    trimws()
+  
+  final_row <- data.frame(
+    Name = toString(recipe_nm), 
+    Link = toString(recipe_link), 
+    Time = toString(recipe_time), 
+    Difficulty = toString(recipe_diff), 
+    Author_Name = toString(auth_name), 
+    Calories = toString(kcal))
+  
+  return(final_row)
+}
+```
+
+```{r}
+recipes <- html_elements(html, "div.search-page") %>%
+  html_elements("article.card")
+
+df <- data.frame(
+  Name = character(0),
+  Link = character(0),
+  Time = character(0),
+  Difficulty = character(0),
+  Author_Name = character(0),
+  Calories = character(0)
+)
+```
+
+```{r}
+# use the get_row function to extract all data and add to df 
+df <- lapply(recipes, get_row) %>%
+  bind_rows(df)
+
+write.csv(df, "/Users/charl/Documents/Harvard/LSE/ME204/my_recipes.csv")
+```
+
+### Part 2
+
+```{r}
+get_author_page <- function(url) {
+  # get page html
+  author_html <- read_html(url)
+  
+  # get link
+  link <- html_element(author_html, xpath = "/html/body/div/div[4]/main/div[2]/section/div/div[4]/div[2]/div/ul/li/a") %>%
+    html_attr("href")
+  
+  full_link <- paste0("https://bbcgoodfood.com", link)
+  
+  return(full_link)
+}
+```
+
+```{r}
+get_author_row <- function(url) {
+  # get page html
+  author_html <- read_html(url)
+  
+  # name
+  author_name <- html_element(author_html, "h1") %>%
+    html_text() %>%
+    trimws()
+  
+  # bio
+  author_bio <- html_element(author_html, "p.author-archive-header__bio") %>%
+    html_text() %>%
+    trimws()
+  
+  new_row <- data.frame(
+    Name = author_name,
+    Bio = toString(author_bio),
+    Link = url
+  )
+
+  return(new_row)
+}
+```
+
+```{r}
+# list of author page links
+author_links_list <- lapply(df$Link, get_author_page)
+
+# new empty data frame
+df2 <- data.frame(
+  Name = character(0),
+  Bio = character(0),
+  Link = character(0)
+)
+```
+
+```{r}
+df2 <- lapply(author_links_list, get_author_row) %>%
+  bind_rows(df2) %>%
+  distinct()
+```
+
+```{r}
+write.csv(df2, "/Users/charl/Documents/Harvard/LSE/ME204/authors_info.csv")
+```
+
+### Part 3
+```{r}
+#| warning: false
+
+library(xml2)
+
+recipes_file <- "/Users/charl/Documents/Harvard/LSE/ME204/my_recipes.csv"
+authors_file <- "/Users/charl/Documents/Harvard/LSE/ME204/authors_info.csv"
+
+recipes_data <- read.csv(recipes_file)
+authors_data <- read.csv(authors_file)
+```
+
+```{r}
+# get all recipes by an author
+add_authors_recipes <- function(author_recipes, node) {
+  xml_node <- xml_add_child(node, "recipes")
+
+  for (i in 1:length(author_recipes$Name)) {
+    new_recipe <- xml_add_child(xml_node, "recipe")
+    
+    name <- xml_add_child(new_recipe, "name")
+    xml_set_text(name, author_recipes$Name[i])
+    
+    link <- xml_add_sibling(name, "link")
+    xml_set_text(link, author_recipes$Link[i])
+    
+    time <- xml_add_sibling(link, "time")
+    xml_set_text(time, author_recipes$Time[i])
+    
+    difficulty <- xml_add_sibling(time, "difficulty")
+    xml_set_text(difficulty, author_recipes$Difficulty[i])
+  
+  }
+}
+```
+
+```{r}
+xml_doc <- xml_new_root("data")
+
+add_author_row <- function(author, xdoc) {
+  # get all recipes by author 
+  recipes_by_author <- filter(recipes_data, Author_Name == author)
+  
+  # add author node
+  author_node <- xml_add_child(xdoc, "author")
+  xml_set_attr(author_node, "name", author)
+  
+  # add children
+  add_authors_recipes(recipes_by_author, author_node)
+}
+```
+
+```{r}
+# make final xml doc and export
+for (i in 1:nrow(authors_data)) {
+  add_author_row(authors_data$Name[i], xml_doc)
+}
+
+write_xml(xml_doc, file = "/Users/charl/Documents/Harvard/LSE/ME204/authors.xml")
+```
